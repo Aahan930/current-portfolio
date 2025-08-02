@@ -68,14 +68,14 @@ function App() {
       title: 'Cyvoria Cybersecurity Landing Page',
       description: 'Professional landing page for cybersecurity company featuring modern design, responsive layout, and optimized user experience.',
       technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
-      link: 'https://github.com/Aahan930',
+      link: 'https://harkirat-singh2.github.io/Cybersecurity-project/',
       image: 'https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
       title: 'Full Stack Web Application',
       description: 'Complete web application built with MERN stack featuring user authentication, database integration, and modern UI.',
       technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
-      link: 'https://github.com/Aahan930',
+      link: 'https://harkirat-singh2.github.io/ecommerce-project/',
       image: 'https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=600'
     }
   ];

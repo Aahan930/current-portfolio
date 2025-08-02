@@ -98,6 +98,8 @@
   /* Text glow effects */
   .text-glow {
     text-shadow: 0 0 10px rgba(30, 64, 175, 0.4);
+    filter: none;
+    -webkit-filter: none;
   }
   
   .text-glow-purple {
