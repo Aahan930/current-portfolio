@@ -91,7 +91,7 @@ function App() {
       >
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <div className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent shadow-lg border border-blue-400/30 px-4 py-2 rounded-lg glass">
+            <div className="text-xl font-bold text-white bg-gradient-to-r from-blue-600 to-purple-600 px-4 py-2 rounded-lg shadow-glow border border-blue-400">
               Aahan Jamwal
             </div>
             <div className="hidden md:flex space-x-8">
