@@ -219,7 +219,7 @@ function App() {
             <div className="relative">
               <div className="w-80 h-80 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full mx-auto relative overflow-hidden shadow-glow float">
                 <img 
-                  src="./aahan.jpg" 
+                  src="./aahan.jpg.jpg" 
                   alt="Aahan Jamwal - Full Stack Developer" 
                   className="w-full h-full object-cover object-top"
                 />
