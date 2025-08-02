@@ -58,6 +58,9 @@ function App() {
     { name: 'Node.js', level: 80, icon: Server },
     { name: 'Express', level: 78, icon: Server },
     { name: 'MongoDB', level: 75, icon: Database },
+    {name: 'AI', level: 70, icon: Code},
+    {name: 'Machine Learning', level: 100, icon: Code},
+    {name: 'Generative AI', level: 80, icon: Code},
   ];
 
   const projects = [
@@ -89,7 +92,7 @@ function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
-              Harkirat Singh
+              Aahan Jamwal
             </div>
             <div className="hidden md:flex space-x-8">
               {['about', 'skills', 'experience', 'projects', 'contact'].map((section) => (
@@ -121,7 +124,7 @@ function App() {
           <div className="animate-fade-in">
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6">
               <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent text-glow">
-                Harkirat Singh
+                Aahan Jamwal
               </span>
             </h1>
             <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
@@ -145,13 +148,13 @@ function App() {
               </button>
             </div>
             <div className="flex justify-center space-x-6 mt-8">
-              <a href="https://github.com/harkirat-singh2" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
+              <a href="https://github.com/Aahan930" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
                 <Github className="h-7 w-7" />
               </a>
-              <a href="https://www.linkedin.com/in/harkirat-singh-83862a27a" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
+              <a href="www.linkedin.com/in/aahan-jamwal-509373248" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
                 <Linkedin className="h-7 w-7" />
               </a>
-              <a href="mailto:harkirat.email@gmail.com" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
+              <a href="mailto:aspirantaahan@gmail.com" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
                 <Mail className="h-7 w-7" />
               </a>
             </div>
@@ -181,7 +184,7 @@ function App() {
           </div>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-2xl font-semibold mb-6 text-blue-400 text-glow">Hello! I'm Harkirat Singh</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-blue-400 text-glow">Hello! I'm Aahan Jamwal</h3>
               <p className="text-gray-300 leading-relaxed mb-6">
                 I'm a passionate third-year student specializing in full-stack web development. 
                 I love creating digital experiences that combine beautiful design with robust functionality.
@@ -202,13 +205,13 @@ function App() {
                 </div>
               </div>
               <div className="flex space-x-4 mt-6">
-                <a href="https://github.com/harkirat-singh2" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
+                <a href="https://github.com/Aahan930" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
                   <Github className="h-6 w-6" />
                 </a>
-                <a href="https://www.linkedin.com/in/harkirat-singh-83862a27a" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
+                <a href="www.linkedin.com/in/aahan-jamwal-509373248" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
                   <Linkedin className="h-6 w-6" />
                 </a>
-                <a href="mailto:harkirat.email@gmail.com" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
+                <a href="mailto:aspirantaahan@gmail.com" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
                   <Mail className="h-6 w-6" />
                 </a>
               </div>
@@ -216,8 +219,8 @@ function App() {
             <div className="relative">
               <div className="w-80 h-80 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full mx-auto relative overflow-hidden shadow-glow float">
                 <img 
-                  src="/harkirat-portrait.jpg" 
-                  alt="Harkirat Singh - Full Stack Developer" 
+                  src="/aahan.jpg" 
+                  alt="Aahan Jamwal - Full Stack Developer" 
                   className="w-full h-full object-cover object-top"
                 />
               </div>
@@ -432,24 +435,24 @@ function App() {
               </p>
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
-                  <a href="mailto:harkirat.email@gmail.com" className="flex items-center gap-4 group">
+                  <a href="mailto:aspirantaahan@gmail.com" className="flex items-center gap-4 group">
                     <span className="bg-blue-600 p-3 rounded-full group-hover:bg-blue-700 transition-colors">
                       <Mail className="h-5 w-5" />
                     </span>
                     <span>
                       <p className="font-semibold">Email</p>
-                      <span className="text-gray-300 group-hover:text-blue-400 transition-colors">harkirat.email@gmail.com</span>
+                      <span className="text-gray-300 group-hover:text-blue-400 transition-colors">aspirantaahan@gmail.com</span>
                     </span>
                   </a>
                 </div>
                 <div className="flex items-center gap-4">
-                  <a href="tel:+919453675860" className="flex items-center gap-4 group">
+                  <a href="tel:+919872707904" className="flex items-center gap-4 group">
                     <span className="bg-purple-600 p-3 rounded-full group-hover:bg-purple-700 transition-colors">
                       <Phone className="h-5 w-5" />
                     </span>
                     <span>
                       <p className="font-semibold">Phone</p>
-                      <span className="text-gray-300 group-hover:text-blue-400 transition-colors">+91 9453675860</span>
+                      <span className="text-gray-300 group-hover:text-blue-400 transition-colors">+91 9872707904</span>
                     </span>
                   </a>
                 </div>
@@ -516,13 +519,13 @@ function App() {
             <div className="text-center md:text-left mb-4 md:mb-0">
             </div>
             <div className="flex space-x-6">
-              <a href="https://github.com/harkirat-singh2" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
+              <a href="https://github.com/Aahan930" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
                 <Github className="h-5 w-5" />
               </a>
-              <a href="https://www.linkedin.com/in/harkirat-singh-83862a27a" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
+              <a href="www.linkedin.com/in/aahan-jamwal-509373248" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="mailto:harkirat.email@gmail.com" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
+              <a href="mailto:aspirantaahan@gmail.com" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
                 <Mail className="h-5 w-5" />
               </a>
             </div>
