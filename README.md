@@ -1,6 +1,8 @@
-# Harkirat Singh - Portfolio Website
+# Aahan's Portfolio Website
 
 A modern, responsive portfolio website showcasing my skills, experience, and projects as a Full Stack Developer. Built with React, Framer Motion, and Tailwind CSS.
+
+🌐 **Live Demo**: [https://aahan930.github.io/ecommerce](https://aahan930.github.io/ecommerce)
 
 ![Portfolio Preview](https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=600)
 
@@ -41,8 +43,8 @@ A modern, responsive portfolio website showcasing my skills, experience, and pro
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/harkirat-singh2/harkirat-portfolio.git
-   cd harkirat-portfolio
+   git clone https://github.com/Aahan930/ecommerce.git
+   cd ecommerce
    ```
 
 2. **Install dependencies**
@@ -108,36 +110,36 @@ The portfolio is fully responsive and optimized for:
 
 ## 🚀 Deployment
 
-### Netlify
+This project is automatically deployed to GitHub Pages using GitHub Actions.
+
+### Automatic Deployment
+The site automatically deploys when you push to the `main` branch. The GitHub Actions workflow:
+1. Builds the project using `npm run build`
+2. Deploys to GitHub Pages
+3. Makes it available at: https://aahan930.github.io/ecommerce
+
+### Manual Deployment
+You can also deploy manually using:
+```bash
+npm run deploy
+```
+
+### Other Platforms
+
+#### Netlify
 1. Connect your GitHub repository to Netlify
 2. Set build command: `npm run build`
 3. Set publish directory: `dist`
-4. Deploy!
 
-### Vercel
+#### Vercel
 1. Install Vercel CLI: `npm i -g vercel`
 2. Run: `vercel`
 3. Follow the prompts to deploy
 
-### GitHub Pages
-1. Add to `package.json`:
-   ```json
-   "homepage": "https://yourusername.github.io/repository-name",
-   "scripts": {
-     "predeploy": "npm run build",
-     "deploy": "gh-pages -d dist"
-   }
-   ```
-2. Install gh-pages: `npm install --save-dev gh-pages`
-3. Deploy: `npm run deploy`
-
 ## 📞 Contact Information
 
-- **Email**: harkirat.email@gmail.com
-- **Phone**: +91 9453675860
-- **Location**: Pune, India
-- **GitHub**: [harkirat-singh2](https://github.com/harkirat-singh2)
-- **LinkedIn**: [Harkirat Singh](https://www.linkedin.com/in/harkirat-singh-83862a27a)
+- **GitHub**: [Aahan930](https://github.com/Aahan930)
+- **Portfolio**: [https://aahan930.github.io/ecommerce](https://aahan930.github.io/ecommerce)
 
 ## 🤝 Contributing
 
@@ -155,4 +157,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Built with ❤️ by Harkirat Singh** 
+**Built with ❤️ by Aahan** 

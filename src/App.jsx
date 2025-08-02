@@ -151,7 +151,7 @@ function App() {
               <a href="https://github.com/Aahan930" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
                 <Github className="h-7 w-7" />
               </a>
-              <a href="www.linkedin.com/in/aahan-jamwal-509373248" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
+              <a href="https://www.linkedin.com/in/aahan-jamwal-509373248" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
                 <Linkedin className="h-7 w-7" />
               </a>
               <a href="mailto:aspirantaahan@gmail.com" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
@@ -208,7 +208,7 @@ function App() {
                 <a href="https://github.com/Aahan930" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
                   <Github className="h-6 w-6" />
                 </a>
-                <a href="www.linkedin.com/in/aahan-jamwal-509373248" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
+                <a href="https://www.linkedin.com/in/aahan-jamwal-509373248" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
                   <Linkedin className="h-6 w-6" />
                 </a>
                 <a href="mailto:aspirantaahan@gmail.com" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
@@ -522,7 +522,7 @@ function App() {
               <a href="https://github.com/Aahan930" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
                 <Github className="h-5 w-5" />
               </a>
-              <a href="www.linkedin.com/in/aahan-jamwal-509373248" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
+              <a href="https://www.linkedin.com/in/aahan-jamwal-509373248" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
                 <Linkedin className="h-5 w-5" />
               </a>
               <a href="mailto:aspirantaahan@gmail.com" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
