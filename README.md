@@ -1,50 +1,34 @@
-# Aahan's Portfolio Website
+# Aahan Jamwal - Portfolio Website
 
-A modern, responsive portfolio website showcasing my skills, experience, and projects as a Full Stack Developer. Built with React, Framer Motion, and Tailwind CSS.
+A modern, responsive portfolio website built with React, Vite, and Tailwind CSS. Features smooth animations, glassmorphism design, and optimized performance.
 
-🌐 **Live Demo**: [https://aahan930.github.io/ecommerce](https://aahan930.github.io/ecommerce)
+## 🚀 Live Demo
 
-![Portfolio Preview](https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=600)
+Visit the live portfolio: [https://aahan930.github.io/current-portfolio/](https://aahan930.github.io/current-portfolio/)
 
-## 🌟 Features
+## ✨ Features
 
-- **Modern Design**: Clean, professional design with glass morphism effects and gradient animations
-- **Responsive Layout**: Fully responsive design that works on all devices
-- **Smooth Animations**: Beautiful scroll animations powered by Framer Motion
-- **Interactive Navigation**: Smooth scrolling navigation with active section highlighting
-- **Contact Form**: Interactive contact form for easy communication
-- **Dark Theme**: Elegant dark theme with blue and purple accent colors
-- **Performance Optimized**: Fast loading times with optimized assets
-
-## 🚀 Sections
-
-- **Hero Section**: Eye-catching introduction with call-to-action buttons
-- **About Me**: Personal introduction and background information
-- **Skills**: Technical skills with animated progress bars
-- **Experience**: Professional experience and work history
-- **Projects**: Showcase of featured projects with technologies used
-- **Contact**: Contact information and contact form
+- **Modern Design**: Glassmorphism UI with gradient effects
+- **Responsive**: Fully responsive design that works on all devices
+- **Smooth Animations**: Framer Motion animations for enhanced user experience
+- **Performance Optimized**: Built with Vite for fast loading times
+- **SEO Friendly**: Proper meta tags and semantic HTML structure
 
 ## 🛠️ Technologies Used
 
-### Frontend
-- **React 18** - Modern React with hooks
-- **Framer Motion** - Smooth animations and transitions
-- **Tailwind CSS** - Utility-first CSS framework
-- **Lucide React** - Beautiful icon library
-- **Vite** - Fast build tool and development server
+- **Frontend**: React 18, JavaScript (ES6+)
+- **Styling**: Tailwind CSS, Custom CSS animations
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Build Tool**: Vite
+- **Deployment**: GitHub Pages
 
-### Development Tools
-- **ESLint** - Code linting and formatting
-- **PostCSS** - CSS processing
-- **Autoprefixer** - CSS vendor prefixing
-
-## 📦 Installation
+## 📦 Installation & Setup
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Aahan930/ecommerce.git
-   cd ecommerce
+   git clone https://github.com/Aahan930/current-portfolio.git
+   cd current-portfolio
    ```
 
 2. **Install dependencies**
@@ -52,109 +36,110 @@ A modern, responsive portfolio website showcasing my skills, experience, and pro
    npm install
    ```
 
-3. **Start the development server**
+3. **Start development server**
    ```bash
    npm run dev
    ```
 
-4. **Open your browser**
-   Navigate to `http://localhost:5173` to view the portfolio
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
 
-## 🏗️ Build for Production
+## 🚀 Deployment
+
+This project is configured for automatic deployment to GitHub Pages using GitHub Actions.
+
+### Automatic Deployment (Recommended)
+
+1. **Push to main branch** - The GitHub Action will automatically build and deploy
+2. **Enable GitHub Pages** in repository settings:
+   - Go to Settings → Pages
+   - Source: Deploy from a branch
+   - Branch: gh-pages
+   - Folder: / (root)
+
+### Manual Deployment
 
 ```bash
 npm run build
+npm run deploy
 ```
-
-The built files will be in the `dist` directory, ready for deployment.
 
 ## 📁 Project Structure
 
 ```
-harkirat-portfolio/
+portfolio/
 ├── public/
-│   └── harkirat-portrait.jpg    # Profile image
+│   ├── aahan.jpg           # Profile image
+│   └── harkirat-portrait.jpg
 ├── src/
-│   ├── App.jsx                  # Main application component
-│   ├── index.css                # Global styles and Tailwind imports
-│   └── main.jsx                 # Application entry point
-├── package.json                 # Dependencies and scripts
-├── tailwind.config.js          # Tailwind CSS configuration
-├── vite.config.js              # Vite configuration
-└── README.md                   # This file
+│   ├── App.jsx            # Main application component
+│   ├── index.css          # Global styles and animations
+│   └── main.jsx           # Application entry point
+├── .github/
+│   └── workflows/
+│       └── deploy.yml     # GitHub Actions deployment
+├── package.json
+├── vite.config.js         # Vite configuration
+└── tailwind.config.js     # Tailwind CSS configuration
 ```
 
 ## 🎨 Customization
 
-### Colors and Styling
-The portfolio uses a custom color scheme with blue and purple gradients. You can modify the colors in:
-- `src/index.css` - Custom CSS variables and animations
-- `tailwind.config.js` - Tailwind color extensions
+### Personal Information
+Update personal details in `src/App.jsx`:
+- Name and title
+- Contact information
+- Social media links
+- Skills and experience
+- Projects showcase
 
-### Content Updates
-To update the content:
-- **Personal Information**: Edit the text content in `src/App.jsx`
-- **Skills**: Modify the `skills` array in the App component
-- **Projects**: Update the `projects` array with your own projects
-- **Contact Information**: Update email, phone, and social media links
+### Styling
+- **Colors**: Modify gradient colors in `tailwind.config.js`
+- **Animations**: Custom animations in `src/index.css`
+- **Layout**: Component structure in `src/App.jsx`
 
-### Profile Image
-Replace `public/harkirat-portrait.jpg` with your own profile image.
+### Images
+Replace images in the `public/` folder:
+- `aahan.jpg` - Profile picture
+- Add project screenshots as needed
 
-## 📱 Responsive Design
+## 📱 Sections
 
-The portfolio is fully responsive and optimized for:
-- Desktop (1024px+)
-- Tablet (768px - 1023px)
-- Mobile (320px - 767px)
+1. **Hero** - Introduction with call-to-action buttons
+2. **About** - Personal information and background
+3. **Skills** - Technical skills with progress bars
+4. **Experience** - Professional experience timeline
+5. **Projects** - Featured projects showcase
+6. **Contact** - Contact form and information
 
-## 🚀 Deployment
+## 🔧 Configuration Files
 
-This project is automatically deployed to GitHub Pages using GitHub Actions.
-
-### Automatic Deployment
-The site automatically deploys when you push to the `main` branch. The GitHub Actions workflow:
-1. Builds the project using `npm run build`
-2. Deploys to GitHub Pages
-3. Makes it available at: https://aahan930.github.io/ecommerce
-
-### Manual Deployment
-You can also deploy manually using:
-```bash
-npm run deploy
-```
-
-### Other Platforms
-
-#### Netlify
-1. Connect your GitHub repository to Netlify
-2. Set build command: `npm run build`
-3. Set publish directory: `dist`
-
-#### Vercel
-1. Install Vercel CLI: `npm i -g vercel`
-2. Run: `vercel`
-3. Follow the prompts to deploy
-
-## 📞 Contact Information
-
-- **GitHub**: [Aahan930](https://github.com/Aahan930)
-- **Portfolio**: [https://aahan930.github.io/ecommerce](https://aahan930.github.io/ecommerce)
-
-## 🤝 Contributing
-
-While this is a personal portfolio, if you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
+- **vite.config.js**: Build configuration for GitHub Pages
+- **tailwind.config.js**: Tailwind CSS customization
+- **package.json**: Dependencies and scripts
+- **.github/workflows/deploy.yml**: Automated deployment
 
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Acknowledgments
+## 🤝 Contributing
 
-- Icons provided by [Lucide React](https://lucide.dev/)
-- Images from [Pexels](https://www.pexels.com/)
-- Animation library by [Framer Motion](https://www.framer.com/motion/)
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📞 Contact
+
+**Aahan Jamwal**
+- Email: aspirantaahan@gmail.com
+- LinkedIn: [aahan-jamwal-509373248](https://www.linkedin.com/in/aahan-jamwal-509373248)
+- GitHub: [Aahan930](https://github.com/Aahan930)
 
 ---
 
-**Built with ❤️ by Aahan** 
+⭐ Star this repository if you found it helpful!
